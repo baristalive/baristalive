@@ -13,7 +13,7 @@ export const Projects = () => {
       >
         {lang.projects.title}
       </h2>
-      <div className="mx-auto flex max-w-screen-xl gap-20">
+      <div className="mx-auto flex flex-col md:flex-row max-w-screen-xl gap-20 p-2">
         {lang.projects.content.map((p) => (
           <div
             key={p.title}

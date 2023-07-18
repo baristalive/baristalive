@@ -10,7 +10,7 @@ export const Footer = () => {
   const params = useParams();
   const lang = dictionaries[params.lang as SupportedLanguages];
   return (
-    <footer className="py-20 pt-32 footer">
+    <footer className="pb-20 pt-32 px-2 footer">
       <div className="w-full mx-auto max-w-[1000px] flex">
         <div className="basis-1/2">
             <a className="h-[34px] w-[34px] inline-block" href="mailto:info@baristalive.cz">
