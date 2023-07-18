@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-rgb: 255, 255, 255;
+  --foreground-rgb: 0, 0, 0;
+  --palette1: #1f005c;
+  --palette2: #5b0060;
+  --palette3: #870160;
+  --palette4: #ac255e;
+  --palette5: #ca485c;
+  --palette6: #e16b5c;
+  --palette7: #f39060;
+  --palette8: #ffb56b;
+}
+
+html {
+  font-size: 15px;
+}
+
+section,
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+.page1 {
+  --mask: radial-gradient(
+        34.99px at 50% calc(100% - 48px),
+        #000 99%,
+        #0000 101%
+      )
+      calc(50% - 60px) 0/120px 100%,
+    radial-gradient(34.99px at 50% calc(100% + 18px), #0000 99%, #000 101%) 50%
+      calc(100% - 30px) / 120px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  background: linear-gradient(
+      135deg,
+      var(--palette1),
+      var(--palette2),
+      var(--palette3),
+      var(--palette4),
+      var(--palette5),
+      var(--palette5),
+      var(--palette6),
+      var(--palette7),
+      var(--palette8)
+    )
+    fixed;
+  color: rgb(var(--background-rgb));
+}
+.footer {
+  --mask: radial-gradient(34.99px at 50% 48px, #000 99%, #0000 101%)
+      calc(50% - 60px) 0/120px 100%,
+    radial-gradient(34.99px at 50% -18px, #0000 99%, #000 101%) 50% 30px/120px
+      100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  background: linear-gradient(
+      135deg,
+      var(--palette1),
+      var(--palette2),
+      var(--palette3),
+      var(--palette4),
+      var(--palette5),
+      var(--palette5),
+      var(--palette6),
+      var(--palette7),
+      var(--palette8)
+    )
+    fixed;
+  color: rgb(var(--background-rgb));
+}
+.card {
+  /* --mask:
+    radial-gradient(34.99px at 48.00px 50%,#000 99%,#0000 101%) 0 calc(50% - 60px)/51% 120px repeat-y,
+    radial-gradient(34.99px at -18px 50%,#0000 99%,#000 101%) 30px 50%/calc(51% - 30px) 120px repeat-y,
+		radial-gradient(34.99px at calc(100% - 48.00px) 50%,#000 99%,#0000 101%) 100% calc(50% - 60px)/51% 120px repeat-y,
+    radial-gradient(34.99px at calc(100% + 18.00px) 50%,#0000 99%,#000 101%) calc(100% - 30px) 50%/calc(51% - 30px) 120px repeat-y;
+  -webkit-mask: var(--mask);
+          mask: var(--mask); */
+  /* color: rgb(var(--background-rgb)); */
+}
+/* .card:hover {
+  background: rbga(0, 0, 0, 1), linear-gradient(
+      135deg,
+      var(--palette1),
+      var(--palette2),
+      var(--palette3),
+      var(--palette4),
+      var(--palette5),
+      var(--palette5),
+      var(--palette6),
+      var(--palette7),
+      var(--palette8)
+    ) fixed;
+} */
+.roast-header {
+  background: url("/logo.png");
+  background: url("/logo.svg"), linear-gradient(transparent, transparent);
+  background-position: center;
+  background-size: calc(100% - 2rem) 80vh;
+  background-repeat: no-repeat;
+  background-color: #fff800;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+}
+.lama-header::after {
+  content: "?";
+}
+.lama-header {
+  background: linear-gradient(
+    135deg,
+    var(--palette1),
+    var(--palette2),
+    var(--palette3),
+    var(--palette4)
+  );
+  color: rgb(var(--background-rgb));
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+}
+
+.animate::after {
+  animation: letterChange 10s linear infinite;
+  content: "";
+}
+@keyframes letterChange {
+  0% {
+    content: "!";
+  }
+  40% {
+    content: ".";
+  }
+  50% {
+    content: "..";
+  }
+  60% {
+    content: "...";
+  }
+  100% {
+    content: "?";
+  }
+}

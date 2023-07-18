@@ -1,0 +1,26 @@
+{
+    "about": {
+        "text": [
+            "Jsme skupina brněnských kávových nadšenců a profesionálů, která se rozhodla, že přinesou do Brna kulturu velkých evropských kávových festivalů.",
+            "Festivalů pořádaných nejen například v Berlíně, Krakowě, Amsterdamu a v řadě dalších měst. Po vzoru těchto famózních etablovaných akcí zveme do moravské metropole vás – nadšence, amatéry, profesionály, odborníky i lajky. Představí se vám nejméně třicítka českých i zahraničních pražíren na třech espresso a třech brew-barech.",
+            "Tešit se můžete na řadu workshopů, přednášek, diskusí a soutěží. Pro baristy, pražiče a další kávové profesionály je navíc v sobotu připravena afterparty, s cílem propojení kontaktů, sdílení zkušeností a prohlubování vztahů."
+        ],
+        "title": "Organizace"
+    },
+    "projects": {
+        "title": "Projekty",
+        "content": [
+            {
+                "title": "Roast!",
+                "className": "roast",
+                "description": "Kávový festival pro baristy a všechny pro které je káva vášní"
+            },
+            {
+                "title": "Lama s Klama",
+                "className": "lama",
+                "description": "Multižánrový hudební festival alternativní hudby"
+            }
+        ]
+    },
+    "tagLine": "Žijeme kávou a hudbou"
+}
