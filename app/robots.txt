@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://baristalive.cz/sitemap.xml

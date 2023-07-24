@@ -1,26 +1,24 @@
 {
     "about": {
         "text": [
-            "Jsme skupina brněnských kávových nadšenců a profesionálů, která se rozhodla, že přinesou do Brna kulturu velkých evropských kávových festivalů.",
-            "Festivalů pořádaných nejen například v Berlíně, Krakowě, Amsterdamu a v řadě dalších měst. Po vzoru těchto famózních etablovaných akcí zveme do moravské metropole vás – nadšence, amatéry, profesionály, odborníky i lajky. Představí se vám nejméně třicítka českých i zahraničních pražíren na třech espresso a třech brew-barech.",
-            "Tešit se můžete na řadu workshopů, přednášek, diskusí a soutěží. Pro baristy, pražiče a další kávové profesionály je navíc v sobotu připravena afterparty, s cílem propojení kontaktů, sdílení zkušeností a prohlubování vztahů."
+            "We are a non-profit organization engaged in education and organization of events in the fields of gastronomy and culture. In particular, we focus on organizing the Brno speciality coffee festival ROAST. The organizing team is composed of Brno baristas, bartenders, enthusiasts for quality gastronomy and equally from musicians, actors and other members of the cultural community."
         ],
         "title": "Organization"
     },
     "projects": {
         "title": "Projects",
-        "content": [
-            {
+        "content": {
+            "0": {
                 "title": "Roast!",
                 "className": "roast",
                 "description": "Coffee roadshow for baristas and everybody else passionate about coffee"
             },
-            {
+            "1": {
                 "title": "Lama s Klama",
                 "className": "lama",
                 "description": "Multi-grange festival of indie music"
             }
-        ]
+        }
     },
     "tagLine": "Living for coffee and music"
 }

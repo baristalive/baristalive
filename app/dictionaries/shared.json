@@ -1,12 +1,17 @@
 {
-    "sponsors": {
-        "content": [
-        ]
-    },
     "contacts": {
-        "tickets": "",
-        "facebook": "",
-        "instagram": "",
         "email": "mailto:info@baristalive.cz"
+    },
+    "projects": {
+        "content": {
+            "0": {
+                "className": "roast",
+                "href": "https://roastfestival.eu"
+            },
+            "1": {
+                "className": "lama",
+                "href": ""
+            }
+        }
     }
 }

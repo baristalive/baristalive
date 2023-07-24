@@ -11,11 +11,6 @@ type HomePropsType = {
 
 const Home = ({ params: { lang } }: HomePropsType) => (
   <div>
-    {/* <div className="lang inverted uppercase">
-      <Link href={lang === "cz" ? "./en" : "./cz"}>
-        {lang === "cz" ? "Switch to English" : "Přepnout do češtiny"}
-      </Link>
-    </div> */}
     <Header />
     <Projects />
     <Organizers />
