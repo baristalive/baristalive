@@ -10,9 +10,14 @@ export const Footer = () => {
     <footer className="pb-20 pt-32 px-2 footer">
       <div className="w-full mx-auto max-w-[1000px] flex">
         <div className="basis-1/2">
-            <a className="h-[34px] w-[34px] inline-block" href={ lang.contacts.email }>
-              <AtIcon />
-            </a>
+          <a
+            className="h-[34px] w-[34px] inline-block"
+            href={lang.contacts.email}
+            title="E-Mail"
+          >
+            <AtIcon />
+            <span className="sr-only">E-Mail</span>
+          </a>
         </div>
         <ul className="basis-1/2 space-y-2 text-lg text-right">
           <li className="font-regular">

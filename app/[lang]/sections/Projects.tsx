@@ -7,7 +7,7 @@ import { PropsWithChildren } from "react";
 const WrappedA = ({
   href,
   ...props
-}: PropsWithChildren<{ href: string; target: string; rel: string }>) => (
+}: PropsWithChildren<{ href: string; target: string; rel: string, title: string }>) => (
   <>{href ? <a href={href} {...props} /> : <div {...props} />}</>
 );
 
@@ -29,7 +29,7 @@ export const Projects = () => {
               p.href ? "hover:scale-110" : "hover:grayscale"
             } transition-transform`}
           >
-            <WrappedA href={p.href} target="_blank" rel="related">
+            <WrappedA href={p.href} target="_blank" rel="related" title={p.title}>
               <div
                 className={`${p.className}-header h-[300px] text-8xl flex justify-center items-center ${fredoka.className}`}
               />
