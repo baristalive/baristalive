@@ -14,6 +14,7 @@ export const Footer = () => {
             className="h-[34px] w-[34px] inline-block"
             href={lang.contacts.email}
             title="E-Mail"
+            rel="author"
           >
             <AtIcon />
             <span className="sr-only">E-Mail</span>
